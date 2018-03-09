@@ -18,43 +18,10 @@ class portal extends Simulation {
     .acceptLanguageHeader("fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7")
     .userAgentHeader("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36")
 
-  val headers_0 = Map(
-    "Accept" -> "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-    "Upgrade-Insecure-Requests" -> "1")
-
-  val headers_1 = Map("Accept" -> "text/css,*/*;q=0.1")
-
-  val headers_2 = Map("Accept" -> "*/*")
-
-  val headers_4 = Map(
-    "Accept" -> "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01",
-    "X-Requested-With" -> "XMLHttpRequest")
-
-  val headers_6 = Map(
-    "Accept" -> "*/*",
-    "Content-Type" -> "application/json",
-    "X-Bonita-API-Token" -> "cd60e0c6-adf0-43cf-a51b-039b7b7f1195")
-
-  val headers_10 = Map(
-    "Accept" -> "*/*",
-    "Origin" -> "http://localhost:8080")
-
-  val headers_22 = Map(
-    "Accept" -> "application/json, text/plain, */*",
-    "X-Bonita-API-Token" -> "cd60e0c6-adf0-43cf-a51b-039b7b7f1195")
-
-  val headers_login = Map(
+   val headers_login = Map(
     "Accept" -> "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
     "Origin" -> "http://localhost:8080",
     "Upgrade-Insecure-Requests" -> "1")
-
-  val headers_bonita = Map(
-    "Accept" -> "*/*",
-    "Content-Type" -> "application/json"
-  )
-
-
-  val uri1 = "http://localhost:8080/bonita"
 
   val scn = scenario("portal")
     // portal
